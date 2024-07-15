@@ -1,0 +1,73 @@
+<ng-container *ngTemplateOutlet="comprovanteContent"></ng-container>
+
+<ng-template #comprovanteContent>
+  <article>
+    <img class="img-comp" src="assets/space_vector.svg" />
+    <h1>Comprovante da operação</h1>
+
+    <section>
+      <h2>Dados da operação</h2>
+      <ul>
+        <li>
+          <span>Field</span>
+          <span>Value</span>
+        </li>
+        <li>
+          <span>Field</span>
+          <span>Value</span>
+        </li>
+        <li>
+          <span>Field</span>
+          <span>Value</span>
+        </li>
+        <li>
+          <span>Field</span>
+          <span>Value</span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Dados da conta</h2>
+      <ul>
+        <li>
+          <span>Field</span>
+          <span>Value</span>
+        </li>
+        <li>
+          <span>Field</span>
+          <span>Value</span>
+        </li>
+        <li>
+          <span>Field</span>
+          <span>Value</span>
+        </li>
+        <li>
+          <span>Field</span>
+          <span>Value</span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Dados do comprovante</h2>
+      <ul>
+        <li>
+          <span>Field</span>
+          <span>Value</span>
+        </li>
+        <li>
+          <span>Field</span>
+          <span>Value</span>
+        </li>
+      </ul>
+    </section>
+  </article>
+</ng-template>
+
+<div class="footer__buttons">
+  <button mat-flat-button color="secondary">Voltar</button>
+  <button mat-flat-button color="primary" (click)="imprimir()">Imprimir</button>
+</div>
+
+<iframe #iframe></iframe>

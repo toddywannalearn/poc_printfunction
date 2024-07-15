@@ -1,0 +1,25 @@
+header {
+  width: 978px;
+}
+
+main {
+  width: 978px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+footer {
+  color: white;
+  width: 978px;
+  height: 100px;
+  background-color: black;
+  padding-bottom: 20px;
+
+  ul {
+    list-style: none;
+    padding-top: 30px;
+  }
+}
